@@ -1,5 +1,7 @@
-#read in dataset
-#the file "household_power_consumption.txt" should be in the working directory.
+#read dataset
+#unzip datafile "exdata-data-household_power_consumption.zip"
+#and get text file "household_power_consumption.txt"
+#file "household_power_consumption.txt" should be in the working directory.
 mydata=read.table("household_power_consumption.txt",sep=";",header=TRUE)
 
 #take out data from dates 2007-02-01 and 2007-02-02
